@@ -19,7 +19,7 @@ y=15//reassigned
 console.log(y);
 
 const z=30;
-// z=20 //reassigned error in const
+z=20 //reass
 console.log(z);
 
 var x = 10;

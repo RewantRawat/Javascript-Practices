@@ -36,3 +36,21 @@ const shoppingCart = [
 
 const shoppingBill = shoppingCart.reduce((acc,item)=>acc+item.price,0)
 console.log(shoppingBill);
+
+const datas = [2,4,6,8,10]
+const newData = datas.reduce((acc,currvalue)=>acc+currvalue,0)
+console.log(newData);
+
+
+//largest number//
+
+const bigNumbers = [96,10,34,7,66,80]
+
+const largestNumber = bigNumbers.reduce((acc,cuurval)=> cuurval>acc ?cuurval:acc)
+console.log(largestNumber);
+
+const smallestNumber = bigNumbers.reduce((acc,cur)=>cur<acc?cur:acc)
+console.log(smallestNumber);
+
+
+

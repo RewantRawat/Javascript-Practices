@@ -72,3 +72,64 @@ function isPrime(n) {
     return false
 }
 console.log(array.filter(isPrime));
+
+const newNumbers = [1,2,3,4,5,6,7,8]
+const evenNumbers = newNumbers.filter((f)=>f%2===0)
+console.log(evenNumbers);
+
+const words = ["banana","apple","kiwi","guavava"]
+const filterWords=words.filter((word)=>word.length<=5)
+console.log(filterWords);
+
+const products1 = [
+    {name:"banana",price:200},
+    {name:"raspberry",price:400},
+    {name:"Kiwi",price:350},
+    {name:"dragonfruit",price:500}
+]
+
+const filteredProduct = products1.filter((pro)=>pro.price<=400)
+console.log(filteredProduct);
+
+const peoples = [
+    {name:"Alice",age:"21",gender:"female"},
+     {name:"Ryan",age:"25",gender:"male"},
+      {name:"Bob",age:"30",gender:"male"},
+       {name:"Justin",age:"35",gender:"male"},
+        {name:"Amya",age:"28",gender:"female"}
+]
+
+const malePersoned = peoples.filter((people)=>people.gender==="male" && people.age<=30)
+console.log(malePersoned);
+
+const data = [
+  { name: 'John', age: 30, city: 'New York' },
+  { name: 'Alice', age: 25, city: 'San Francisco' },
+  { name: 'Bob', age: 35, city: 'New York' }
+];
+
+const filterdata = data.filter((d)=>d.city==="New York" && d.age>=30)
+console.log(filterdata);
+
+
+const bookss = [
+  { title: 'Book 1', author: 'John Doe', year: 1995 },
+  { title: 'Book 2', author: 'Jane Smith', year: 2005 },
+  { title: 'Book 3', author: 'Alice Johnson', year: 1999 },
+  { title: 'Book 4', author: 'Emily Brown', year: 2003 }
+];
+
+function filterBooks(bookss) {
+  return bookss.filter(book => {
+    return book.year > 2000 && isFemaleAuthor(book.author);
+  });
+}
+
+function isFemaleAuthor(author) {
+  // Assuming a function to check if the author's name is female
+  // This could be implemented using various methods like name databases or regular expressions
+  return author.toLowerCase().includes('female');
+}
+
+const filteredBooks = filterBooks(books);
+console.log(filteredBooks);

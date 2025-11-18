@@ -56,3 +56,14 @@ console.log(s);
 
 //10. set.forEach(callback)
 
+
+////BASIC SET METHODS////
+//add()
+
+//has()
+
+//delete()
+
+//size
+
+//values()

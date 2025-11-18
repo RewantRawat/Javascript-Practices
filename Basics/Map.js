@@ -41,6 +41,7 @@ const nameOfUsers = users.map((u)=>u.name)
 console.log(nameOfUsers);
 
 //map with index values
+
 const arr = ["a","b","c"]
 const result = arr.map((item,index)=>`${index}:${item}`)
 console.log(result);

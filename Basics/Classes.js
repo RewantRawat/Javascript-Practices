@@ -158,3 +158,5 @@ class ElectricCar extends Car{
 let tesla =new ElectricCar("Tesla","Model S",2021,24)
 tesla.d()
 tesla.di()
+
+//Map MethodRole of findKeyIndexset(key, value)Determines if the pair should be updated (index $\ne -1$) or added (index $ = -1$).get(key)Finds the index to retrieve the associated value.has(key)Checks if the returned index is $\ne -1$.delete(key)Finds the index to be removed using splice.

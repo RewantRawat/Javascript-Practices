@@ -14,4 +14,13 @@ const JsUser = {
 console.log(JsUser.email);
 console.log(JsUser[mySym]);
 
+JsUser.email = "hitesthgpt@gmail.com"
+// Object.freeze(JsUser)
+JsUser.email = "hitesthmicrosoft@gmail.com" 
+// console.log(JsUser);
 
+JsUser.greeting = function(){
+    console.log("Hello js user!");
+    
+}
+console.log(JsUser.greeting);

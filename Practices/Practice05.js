@@ -56,7 +56,44 @@ const Informations = {
     }
 }
 
-const { comapany_name,employees:{name,age1},Fields:[tec] ,...Informations1 } = Informations
+const { comapany_name, employees: { name, age1 }, Fields: [tec], ...Informations1 } = Informations
 
 const info = Informations1.Headquarters
-console.log();
+const data = Informations1.Fields
+console.log(data);
+
+
+
+
+// function map(arr, callback) {
+//     let result = []
+
+//     for (let i = 0; i < arr.length; i++) {
+//         result.push(callback(arr[i], i, arr.slice))
+//     }
+//     return result
+// }
+
+// function filter(arr, callback) {
+//     let result = []
+//     for (let i = 0; i < arr.length; i++) {
+//         if (callback(arr[i], i, arr)) {
+//             result.push(arr[i])
+//         }
+//     }
+// }
+
+// function reduce(arr,initialValue,callback){
+//     let acc = initialValue
+//     let startindex =0
+
+//     if(initialValue===undefined){
+//         acc=arr[i]
+//         startindex=1
+        
+//     }
+//     for(let i = 0;i<arr.length;i++){
+//         acc = callback(acc,arr[i],i,arr)
+//     }
+//     return acc
+// }

@@ -61,6 +61,9 @@ const setOfNumbers = [30, 23, 89, 9, 99, 89]
 const largestNumber = setOfNumbers.reduce((acc, curr) => curr > acc ? curr : acc)
 console.log(largestNumber);
 
+// const setOfNumber = [20,3,4,5,6]
+// // const ofnumbers = setOfNumber.reduce((acc,curr)=>curr>acc?curr:acc)
+
 const smallestNumbers = setOfNumbers.reduce((acc, curr) => curr < acc ? curr : acc)
 console.log(smallestNumbers);
 

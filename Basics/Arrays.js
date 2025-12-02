@@ -23,15 +23,21 @@ const heros = ["thor","hulk","vm","super"]
 let cities = ["jaipur","panipat","delhi","guragaon","pune"]
 // console.log(heros[2]);
 
+console.log(cities);
+
 for(let i=0;i<heros.length;i++){
     console.log(heros[i]);
     }
 
-    for(let city of cities){
-        // console.log(city);
-         console.log(city.toUpperCase());
+    for(let i=0;i<cities.length;i++){
+        console.log(cities[i]);
         
     }
+    // for(let city of cities){
+    //     // console.log(city);
+    //      console.log(city.toUpperCase());
+        
+    // }
 
     let marks = [85,97,54,37,76,60]
 

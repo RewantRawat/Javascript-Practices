@@ -8,6 +8,15 @@ const user = {
     city: "Jaipur",
     country: "India"
 }
+const user2 = {
+    name: "Golu",
+    age: "22",
+    city: "jaipur",
+    country: "India"
+}
+
+const{...data}=user2
+console.log("hehhss",data);
 
 const { name, ...others } = user
 console.log(name);
@@ -37,12 +46,15 @@ const user1 = {
 
 const updatedUser = {
     ...user,
-    address:{
+    address: {
         ...user.address,
-        city:"ajmer"
+        city: "ajmer"
     }
 }
 
+const updatedUser2 ={
+    
+}
 console.log(updatedUser);
 
 

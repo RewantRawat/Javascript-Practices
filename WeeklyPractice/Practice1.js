@@ -95,4 +95,4 @@ cart.addItem(product2, 2);
 
 console.log("Cart:", cart.items);
 console.log("Total:", cart.getTotal());
-console.log(removeItem(product1));
+

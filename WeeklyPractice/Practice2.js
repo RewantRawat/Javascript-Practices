@@ -76,3 +76,38 @@ const updatedUsers = userss.map(user => ({
 }))
 
 console.log(updatedUsers);
+
+const person = {
+    name:"Rewant",
+    greet:function(){
+        console.log(`Hello,my name is ${this.name}`);
+        
+    }
+}
+
+person.greet()
+
+function reverse(str){
+    return str.split("").reverse().join("")
+}
+
+console.log(reverse("Rewant"));
+
+console.log(1);
+
+setTimeout(()=>console.log(2),0);
+
+Promise.resolve().then(()=>console.log(3)
+)
+
+console.log(4);
+
+
+// console.log(a);
+
+// setTimeout(()=>console.log(b),0
+// )
+// Promise.resolve().then(()=>console.log(c)
+// )
+
+// console.log(d);

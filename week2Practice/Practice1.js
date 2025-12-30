@@ -55,7 +55,7 @@ Promise.myAll = function (promises) {
   });
 };
 
-// Test
+
 Promise.myAll([
   Promise.resolve(1),
   Promise.resolve(2),
